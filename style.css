@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Gotham-Bold';
+    src: url('HomepageBaukasten-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+*{
+    font-family: Gotham-Bold;
+}
+
+.titulosplanos{
+    text-align: center;
+    position: relative;
+
+}
+#tradecolor{
+    color: #ffad12;
+}
+p{
+    position: relative;
+    top: -20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+p3{
+    position: relative;
+    padding: 85px;
+    left: 13%;
+}
+
+ul{
+    position: relative;
+    list-style-type: none;
+    text-align: left;
+    
+}
+
+li{
+    position: relative;
+    left: 20%;
+}
+
+hr{
+    position: relative;
+    width: 65%;
+}
+/*small{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: dimgray;
+}
+*/
+
+img{
+    position: relative;
+        max-width:20px;
+        max-height:15px;
+        width: auto;
+        height: auto;
+        left: 520px;
+        top: 2px;
+    }
+
+
+
+#img2{
+    position: relative;
+    max-width:20px;
+    max-height:15px;
+    width: auto;
+    height: auto;
+    left: 770px;
+    margin-top: -216px;
+}
+
+#img3{
+    position: relative;
+    max-width:20px;
+    max-height:15px;
+    width: auto;
+    height: auto;
+    left: 1006px;
+    margin-top: -216px;
+}
+
+.rodape p {
+    position: relative;
+    top: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.rodape2 p {
+    position: relative;
+    top: -117px;
+    left: 250px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.rodape3 p {
+    position: relative;
+    top: -255px;
+    left: 500px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+button{
+    position: relative;
+    color: white;
+    background-color: red;
+    border-radius: 30px;
+    justify-content: center;
+    max-width: 400px;
+    padding: 20px 100px;
+    border-radius: 26px;
+    border: 0;
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    top: -20px;
+
+}
